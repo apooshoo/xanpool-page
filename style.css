@@ -1,0 +1,122 @@
+body{
+	background-color: rgb(35,45,57);
+}
+.wrapper{
+	/*border: 1px solid black;*/
+	display: flex;
+	flex-wrap: wrap;
+	font-family: "calibri";
+}
+.login {
+	box-sizing: border-box;
+	/*border: 1px solid red;*/
+	margin: 0;
+	padding: 50px;
+	background-color: rgb(32,38,53);
+	color: grey;
+}
+
+.main {
+	display: inline-block;
+	/*border: 1px solid yellow;*/
+	background-image: url("https://publicdelivery.org/wp-content/uploads/2017/02/Nabana-no-Sato-Winter-Illumination-Light-Tunnel-1.jpg");
+	background-size: cover;
+	background-position: center;
+	min-height: 500px;
+}
+
+.icon-container {
+	margin-bottom: 30px;
+}
+.icon {
+	height: 50px;
+	width: 50px;
+}
+
+.option{
+	margin-bottom: 15px;
+}
+.sign-in {
+	border-right: 1px solid grey;
+	padding-right: 4px;
+	color: red;
+}
+.sign-up {
+	margin-left: 6px;
+}
+
+.inputs > input {
+	color: white;
+	background-color: rgb(32,38,53);
+	width: 100%;
+	margin: 15px 0;
+	padding: 5px 0;
+	border: 0;
+	border-bottom: 1px solid grey;
+}
+.inputs > input:focus {
+	outline: none;
+	border-bottom: 1px solid green;
+}
+
+.login-submit {
+	background-color: rgb(35,45,57);
+	border-radius: 5px;
+	margin-top: 25px;
+	padding: 10px;
+	width: 100%;
+	color: white;
+	border-color: rgb(35,45,57) rgb(35,45,57) rgb(73,160,147) rgb(35,45,57);
+}
+
+
+
+
+.nav-container {
+	padding: 10px 30px;
+}
+
+.nav-container > a {
+	display: block;
+	color: beige;
+	text-decoration: none;
+	font-size: 36px;
+	margin: 15px 0px;
+}
+
+
+@media only screen and ( max-width: 776px ) {
+	.wrapper {
+		width: 100%;
+	}
+
+	.login {
+		width: 100%;
+	}
+
+	.main {
+		width: 100%;
+	}
+
+
+}
+
+@media only screen and ( min-width: 776px ) {
+	.wrapper {
+		width: 90vw;
+		height: 100%;
+		margin: 0 auto;
+	}
+
+	.login {
+		width: 38%;
+		height: 100%;
+	}
+
+	.main {
+		width: 58%;
+		min-height: 100%;
+	}
+
+
+}
