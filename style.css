@@ -19,7 +19,7 @@ body{
 .main {
 	display: inline-block;
 	/*border: 1px solid yellow;*/
-	background-image: url("https://publicdelivery.org/wp-content/uploads/2017/02/Nabana-no-Sato-Winter-Illumination-Light-Tunnel-1.jpg");
+	background-image: url("https://www.jrailpass.com/blog/wp-content/uploads/2018/07/obon-festival-japan-1280x720.jpg");
 	background-size: cover;
 	background-position: center;
 	min-height: 500px;
@@ -70,22 +70,65 @@ body{
 }
 
 
+.main-container {
+	padding: 30px;
+}
 
 
 .nav-container {
-	padding: 10px 30px;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .nav-container > a {
-	display: block;
 	color: beige;
+	text-shadow: 1px 1px black;
+	text-align: center;
 	text-decoration: none;
-	font-size: 36px;
-	margin: 15px 0px;
+	font-size: 18px;
+	margin: 0px 12px;
+	padding-top: 10px;
+}
+
+.premium-link:link {
+	display: inline-block;
+	background-color: rgb(33,44,96);
+	padding: 10px 20px;
+	border-radius: 35px;
+
 }
 
 
-@media only screen and ( max-width: 776px ) {
+.nav-container > a:hover {
+	text-decoration: underline;
+}
+
+
+.quote-container span {
+	display: block;
+}
+.quote-container {
+	transform: translateY(90px);
+	text-align: right;
+	color: white;
+	font-size: 26px;
+	text-shadow: 1px 1px black;
+	margin: 10px 30px;
+}
+.quote-container hr {
+	border: 1px solid white;
+}
+
+.quote-container .fb {
+	margin: 0px 10px;
+}
+
+
+
+
+
+
+@media only screen and ( max-width: 600px ) {
 	.wrapper {
 		width: 100%;
 	}
@@ -98,12 +141,34 @@ body{
 		width: 100%;
 	}
 
-
 }
 
-@media only screen and ( min-width: 776px ) {
+@media only screen and ( min-width: 600px ) {
 	.wrapper {
-		width: 90vw;
+		width: 100%;
+		height: 100%;
+	}
+
+	.login {
+		width: 40%;
+		height: 100%;
+	}
+
+	.main {
+		width: 60%;
+		min-height: 100%;
+	}
+
+	.main-container {
+		padding: 30px 0px;
+	}
+}
+
+
+
+@media only screen and ( min-width: 992px ) {
+	.wrapper {
+		width: 98vw;
 		height: 100%;
 		margin: 0 auto;
 	}
@@ -118,5 +183,8 @@ body{
 		min-height: 100%;
 	}
 
+	.main-container {
+		padding: 30px 30px;
+	}
 
 }
