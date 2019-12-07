@@ -1,4 +1,5 @@
 body{
+	font-size: 16px;
 	background-color: rgb(35,45,57);
 }
 .wrapper{
@@ -11,7 +12,7 @@ body{
 	box-sizing: border-box;
 	/*border: 1px solid red;*/
 	margin: 0;
-	padding: 50px;
+	padding: 5%;
 	background-color: rgb(32,38,53);
 	color: grey;
 }
@@ -22,11 +23,11 @@ body{
 	background-image: url("https://www.jrailpass.com/blog/wp-content/uploads/2018/07/obon-festival-japan-1280x720.jpg");
 	background-size: cover;
 	background-position: center;
-	min-height: 500px;
+	min-height: 550px;
 }
 
 .icon-container {
-	margin-bottom: 30px;
+	margin-bottom: 5%;
 }
 .icon {
 	height: 50px;
@@ -34,7 +35,7 @@ body{
 }
 
 .option{
-	margin-bottom: 15px;
+	margin-bottom: 5%;
 }
 .sign-in {
 	border-right: 1px solid grey;
@@ -49,7 +50,7 @@ body{
 	color: white;
 	background-color: rgb(32,38,53);
 	width: 100%;
-	margin: 15px 0;
+	margin: 5% 0;
 	padding: 5px 0;
 	border: 0;
 	border-bottom: 1px solid grey;
@@ -62,7 +63,7 @@ body{
 .login-submit {
 	background-color: rgb(35,45,57);
 	border-radius: 5px;
-	margin-top: 25px;
+	margin-top: 10%;
 	padding: 10px;
 	width: 100%;
 	color: white;
@@ -72,7 +73,7 @@ body{
 
 
 .main-container {
-	padding: 30px;
+	padding: 5%;
 }
 
 
@@ -86,8 +87,7 @@ body{
 	text-shadow: 1px 1px black;
 	text-align: center;
 	text-decoration: none;
-	font-size: 18px;
-	margin: 0px 12px;
+	margin: 0 2.5%;
 	padding-top: 10px;
 }
 
@@ -112,9 +112,9 @@ body{
 	transform: translateY(90px);
 	text-align: right;
 	color: white;
-	font-size: 26px;
+	font-size: 1.5em;
 	text-shadow: 1px 1px black;
-	margin: 10px 30px;
+	margin: 7% 10%;
 }
 .quote-container hr {
 	border: 1px solid white;
@@ -133,10 +133,11 @@ body{
 
 
 
-@media only screen and ( max-width: 600px ) {
+@media screen and ( max-width: 600px ) {
 	.wrapper {
+		font-size: 1.2em;
 		width: 100%;
-	}
+}
 
 	.login {
 		width: 100%;
@@ -148,7 +149,7 @@ body{
 
 }
 
-@media only screen and ( min-width: 600px ) {
+@media screen and ( min-width: 600px ) {
 	.wrapper {
 		width: 100%;
 		height: 100%;
@@ -165,13 +166,13 @@ body{
 	}
 
 	.main-container {
-		padding: 30px 0px;
+		padding: 5%;
 	}
 }
 
 
 
-@media only screen and ( min-width: 992px ) {
+@media screen and ( min-width: 992px ) {
 	.wrapper {
 		width: 98vw;
 		height: 100%;
