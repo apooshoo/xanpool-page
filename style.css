@@ -66,7 +66,8 @@ body{
 	padding: 10px;
 	width: 100%;
 	color: white;
-	border-color: rgb(35,45,57) rgb(35,45,57) rgb(73,160,147) rgb(35,45,57);
+	border: 0;
+	border-bottom: 1px solid  rgb(73,160,147);
 }
 
 
