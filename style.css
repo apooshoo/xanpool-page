@@ -52,7 +52,7 @@ body{
 	color: white;
 	background-color: rgb(32,38,53);
 	width: 100%;
-	margin: 5% 0;
+	margin: 10% 0;
 	padding: 5px 0;
 	border: 0;
 	border-bottom: 1px solid grey;
@@ -65,7 +65,7 @@ body{
 .login-submit {
 	background-color: rgb(35,45,57);
 	border-radius: 5px;
-	margin-top: 10%;
+	margin-top: 20%;
 	padding: 10px;
 	width: 100%;
 	color: white;
@@ -135,7 +135,7 @@ body{
 
 
 
-@media screen and ( max-width: 600px ) {
+@media screen and ( max-width: 800px ) {
 	.wrapper {
 		font-size: 1.2em;
 		width: 100%;
@@ -151,7 +151,25 @@ body{
 
 }
 
-@media screen and ( min-width: 600px ) {
+@media screen and  (orientation: portrait) and ( min-width: 800px ) {
+	.wrapper {
+		font-size: 1.2em;
+		width: 100%;
+}
+
+	.login {
+		width: 100%;
+	}
+
+	.main {
+		width: 100%;
+	}
+
+}
+
+
+
+@media screen and (orientation: landscape) and ( min-width: 800px ) {
 	.wrapper {
 		width: 100%;
 	}
@@ -171,7 +189,7 @@ body{
 
 
 
-@media screen and ( min-width: 992px ) {
+@media screen and (orientation: landscape) and ( min-width: 1000px ) {
 	.wrapper {
 		width: 98vw;
 		margin: 0 auto;
